@@ -1,0 +1,109 @@
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    border: 2px solid white;
+    gap: 1px 1px;
+}
+
+.flex-item2 {
+    border: 2px solid white;
+    background-color: rgb(51, 52, 57);
+}
+
+.ul-padding-right {
+    padding-right: 4%;
+}
+
+img {
+    background-blend-mode: darken;
+}
+
+.codo {
+    padding-left: 3%;
+}
+
+.carousel-caption{
+    padding-left: 30%;
+}
+
+.col-md-6 {
+    height: 50%;
+    width: 50%;
+}
+
+#background {
+    background: rgba(0, 0, 0, 0.7) url("../TP/IMAGENEs/ba1.jpg")
+    background-size: cover;
+    background-blend-mode: darken;
+}
+
+u{
+    border-bottom:2px dotted #9999CC;
+    text-decoration:none;
+}
+
+/* Beach photo */
+
+.beach {
+    max-width: 99%;
+}
+
+
+.entrada-blog a {
+    display: inline-block;
+    background-color: #f1f3f5;
+    color: rgb(155, 33, 33);
+    /* padding: 10px 20px; */
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.formulario {
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+.cuadro {
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+.foot {
+    background-color: rgb(14, 85, 123);
+    color: #f1f3f5;
+}
+
+
+p.text-white{
+    margin: 10px;
+}
+
+h2.text-white {
+    margin: 10px;
+}
+
+button.btn.btn-outline-secondary.fw-bolder.text-white {
+    margin: 10px;
+}
+
+@media (min-width:480px) {
+    .dos-columnas {
+        display: flex;
+        justify-content: space-between;
+    }
+    .entrada-blog {
+        flex-basis: calc(50%-1rem);
+        /*calc() hace un cálculo matemático*/
+        /*Ocupa el 50% del contenedor - 1 rem para dar espacio entre columnas*/
+        background-color: #f3f5f7;
+
+    }
+}
+
+@media screen (max-width:480px) {
+    .palace {
+       width: 100%;
+    }
+
+}
